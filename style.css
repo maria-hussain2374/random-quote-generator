@@ -1,0 +1,37 @@
+body{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-image: url(./abstract-gradient-background-with-golden-splashes-photo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.container{
+    background-image: linear-gradient(rgb(130, 130, 226),rgb(225, 76, 217),rgb(13, 218, 228));
+    margin: 180px auto;
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+button{
+    background-color: aquamarine;
+    padding: 10px;
+    border: 20px solid rgb(239, 87, 214);
+
+}
+h1{
+    color: aqua;
+}
+.container:hover{
+    box-shadow:  0 0 10px rgba(13, 132, 183, 0.9);
+    background-image: linear-gradient(purple, rgb(237, 237, 155),rgb(128, 243, 128));
+}@media only screen and (max-width: 768px) {
+    #quote {
+      font-size: 18px;
+      padding: 10px;
+      
+    }
+  }
+  
